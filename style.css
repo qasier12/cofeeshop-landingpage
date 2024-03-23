@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 73px;
+    background-color: #FFFFFF;
+    box-shadow:  0px 4px 20px 0px #0000001A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+
+
+
+.home{
+    width: 200px;
+    height:  20px;
+    margin-top: px;
+    margin-right:100px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 150px;
+    font-family: "Poppins", sans-serif;
+}
+
+.h1{
+    width: 55px;
+    height: 20px;
+ color: #432010;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 150px;
+}
+
+.nav-signup{
+    width: 101px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.button{
+    padding: 8px 24px 8px 25px;
+    border-radius: 100px; 
+    background-color: #432010;
+    color: white;
+
+}
+
+/* hero  */
+.hero{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.order{
+    width: 50%;
+   padding-left: 70px;
+   font-family: "Poppins", sans-serif;
+    
+
+}
+
+h2{
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #432010;
+}
+.hero-p{
+   
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #432010;
+
+    padding-bottom: 30px;
+
+}
+.hero-button{
+    width: 185px;
+    height: 51px;
+    padding: 5px 5px 5px 22px;
+    border-radius: 100px;  
+    background: #432010;
+    color: white;
+
+}
+.img-section{
+    width: 50%;
+    height: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+} 
+
+.amount{
+    font-size: 50px;
+    font-weight: 600;
+}
+.Views{
+    font-family: "Poppins", sans-serif;
+    color: #432010;
+    font-weight: 500;
+    font-size: 18px;
+}
+#add{
+    color: #DDB772;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.reviews{
+    margin-top: px;
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.servics{
+    width: 240px;
+    height: 534px;
+    top: 745px;
+    left: 100px;
+    gap: 74px;
+    opacity: 0px;
+    
+    
+
+}
+
+.services-heading{
+    width: 700px;
+    height: 97px;
+    gap: 2px;
+    opacity: 0px;
+    margin-top: 50px;
+    margin-left: 450px;
+    flex-direction: column;
+    
+}
+
+
+.box{
+    width: 700px;
+    height: 363px;
+    gap: 68px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 65px;
+
+}
+
+.offers{
+    width: 100%;
+    height: 363px;
+    gap: 68px;
+    opacity: 0px;
+    margin-top: 100px;
+
+}
+
+.offer-1{
+    width: 350px;
+    height: 350px;
+    padding: 38px 47px 38px 47px;
+    gap: 20pxpx;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #7c3e3e;
+    
+}
+
+
+
+.offer-img{
+    width: 274px;
+    height: 287px;
+    top: 38px;
+    left: 47px;
+    gap: 25px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.logo{
+    width: 69px;
+    height: 69px;
+    top: 15px;
+    left: 23px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.offer-h{
+    width: 158px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color:  #432010;
+}
+
+.offer-p{
+    width: 274px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #432010;
+
+}
+
+.learn{
+    width: 113px;
+    height: 20px;
+    gap: 4px;
+    opacity: 0px;
+
+}
+
+.image{
+   opacity: 0.80;
+   
+   height: 424px;
+   top: px;
+   gap: 0px;
+   opacity: 0px;
+
+} 
+.style{
+    width: 100%;
+    height: 97px;
+    padding-top: 32px;
+    padding-left: 218px;
+    
+
+}
+.stylep1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 20px;
+    align-items: center;
+}
+.stylep2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.cup{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.cup1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwee;
+    gap: 100px;
+}
+.cup2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwee;
+    gap: 100px;
+}
+.card{
+    width: 360px;
+    margin-top: 97px;
+    border: 1px solid transparent;
+    background : #DDB77233;
+    padding-bottom: 20px;
+    border-radius: 10px;
+   
+
+}
+.card-img{
+    width: 360px;
+    height: 360px;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cup-button{
+    padding-left: 130px;
+}
+.card-button{
+    width: 93px;
+    height: 28px;
+    background: #432010;
+    border-radius: 100px;
+    color: white;
+}
+#ra{
+border-radius: 12px 12px 0  0 ;
+}
+
+.customers{
+    width: 100%;
+    height: 1000px;
+    background: #DDB77233;
+    margin-top: 100px;
+}
+.customers-h{
+    width: 848px;
+    height: 80px;
+    padding-top: 100px;
+    padding-left: 250px;
+    gap: 2px;
+
+}
+.customers-p{
+    width: 848px;
+    height: 20px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers-re{
+    width: 100%;
+    height: 800px;
+    top: 136px;
+    left: 100px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.re-p{
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    gap: 50px;
+
+}
+.Samantha{
+    width: 250px;
+    height: 20px;
+    padding-top: 20px;
+    left: 151px;
+}
+.arrow{
+    width: 53px;
+    height: 53px;
+    margin-top: 50px;
+    border-radius: 50px ;
+    border: 1px solid #DDB772;
+    font-size: 40px;
+}
+.customers-img{
+    background-image: url(customer.png);
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.social-media{
+    width: 100%px;
+    height: 325px;
+    top: 3982px;
+    background-image: url(media.png);
+}
+.information{
+    width: 1000px;
+    height: 159px;
+    padding-top: 150px;
+    padding-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.media-icons{
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.foot-panel{
+    background: #1B0B04;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins', sans-serif;
+    padding: 30px;
+}
+
+.headding-footer{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    gap: 20px;
+}
